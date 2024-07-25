@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/navin/IdeaProjects/Maven_28_Nov_2023">
+        <classes>
+            <class name="TestNg.TestNgBasic">
+                <methods>
+                    <include name="testCase1"/>
+                    <include name="testCase2"/>
+                    <include name="testCase3"/>
+                </methods>
+            </class>
+            <class name="TestNg.TestNgDemo">
+                <methods>
+                    <include name="testCase1"/>
+                    <include name="testCase2"/>
+                    <include name="testCase3"/>
+                    <include name="testCase4"/>
+                </methods>
+            </class>
+            <class name="TestNg.annotations.AlwaysRunAttribute">
+                <methods>
+                    <include name="verifyLogin"/>
+                    <include name="verifyFundsTransfer"/>
+                    <include name="verifyBankTransfer"/>
+                </methods>
+            </class>
+            <class name="TestNg.annotations.BeforeAndAfterMethod">
+                <methods>
+                    <include name="testcase1"/>
+                    <include name="testcase2"/>
+                    <include name="testcase3"/>
+                </methods>
+            </class>
+            <class name="TestNg.annotations.BeforeClassAndAfterClassAnnotations">
+                <methods>
+                    <include name="testcase1"/>
+                    <include name="testcase2"/>
+                </methods>
+            </class>
+            <class name="TestNg.annotations.BeforeMethodAfterMethod">
+                <methods>
+                    <include name="case1"/>
+                    <include name="case2"/>
+                </methods>
+            </class>
+            <class name="TestNg.annotations.DependsOnGroup">
+                <methods>
+                    <include name="verifyLogin"/>
+                    <include name="verifyFundsTransfer"/>
+                    <include name="verifyBankTransfer"/>
+                </methods>
+            </class>
+            <class name="TestNg.annotations.DependsOnMethodExample">
+                <methods>
+                    <include name="verifyLogin"/>
+                    <include name="verifyFundsTransfer"/>
+                    <include name="verifyBankTransfer"/>
+                </methods>
+            </class>
+            <class name="TestNg.annotations.InvocationCountExample">
+                <methods>
+                    <include name="iCountExample"/>
+                    <include name="iTimeoutExample"/>
+                </methods>
+            </class>
+            <class name="TestNg.assertion.HardAssertExample">
+                <methods>
+                    <include name="hardAssert"/>
+                </methods>
+            </class>
+            <class name="TestNg.assertion.SoftAssertExample">
+                <methods>
+                    <include name="hardAssert"/>
+                </methods>
+            </class>
+            <class name="TestNg.manualapproachfailedtests.SampleTestCases">
+                <methods>
+                    <include name="verifyLogin"/>
+                    <include name="verifyHomePage"/>
+                    <include name="verifyFundsTransfer"/>
+                    <include name="verifyBankTransfer"/>
+                </methods>
+            </class>
+            <class name="TestNg.manualapproachfailedtests.SampleTestClasses2">
+                <methods>
+                    <include name="verifyLogin"/>
+                    <include name="verifyHomePage"/>
+                    <include name="verifyFundsTransfer"/>
+                    <include name="verifyBankTransfer"/>
+                </methods>
+            </class>
+            <class name="TestNg.parameritization.DataProviderWithExcel">
+                <methods>
+                    <include name="verifyGoogleSearch2"/>
+                </methods>
+            </class>
+            <class name="TestNg.parameritization.NeedOfParameterization">
+                <methods>
+                    <include name="verifyGoogleSearch"/>
+                </methods>
+            </class>
+            <class name="TestNg.parameritization.NormalDataProvider">
+                <methods>
+                    <include name="verifyGoogleSearch2"/>
+                </methods>
+            </class>
+            <class name="TestNg.parameritization.WithParameterization">
+                <methods>
+                    <include name="beforeMethodTestDemo"/>
+                    <include name="verifyGooglesearch"/>
+                </methods>
+            </class>
+            <class name="TestNg.priority.WithPriority">
+                <methods>
+                    <include name="testScriptA"/>
+                    <include name="testScriptC"/>
+                    <include name="testScriptE"/>
+                    <include name="testScriptB"/>
+                    <include name="testScriptD"/>
+                    <include name="testScriptF"/>
+                </methods>
+            </class>
+            <class name="TestNg.priority.WithoutPriority">
+                <methods>
+                    <include name="testScriptA"/>
+                    <include name="testScriptC"/>
+                    <include name="testScriptE"/>
+                    <include name="testScriptB"/>
+                    <include name="testScriptD"/>
+                </methods>
+            </class>
+            <class name="reportgeneration.Sample">
+                <methods>
+                    <include name="verifyLogin"/>
+                    <include name="verifyHomePage"/>
+                    <include name="verifyFundsTransfer"/>
+                    <include name="verifyBankTransfer"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
